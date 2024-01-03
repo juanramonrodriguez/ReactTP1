@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer() {
+function Categorias() {
   return (
     <div>
-      Footer
+      Categorias
     </div>
   );
 }
 
-export default Footer;
+export default Categorias;

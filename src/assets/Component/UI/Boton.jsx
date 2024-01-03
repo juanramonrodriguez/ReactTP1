@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Footer() {
+function Boton() {
   return (
     <div>
-      Footer
+      boton
     </div>
   );
 }
 
-export default Footer;
+export default Boton;

@@ -1,0 +1,50 @@
+export const productos = [
+    {
+        id:1,
+        title:"Monopatin Eléctrico Dualtron Mini",
+        modelo:"13 AH",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2022/03/monopatin-electrico-dualtron-mini-alu-1.jpg",
+        price:1550,
+        category:"Monopatines",
+    },
+    {
+        id:2,
+        title:"Monopatín Eléctrico Dualtron",
+        modelo:"Achilleus 35Ah",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2022/01/monopatin-electrico-dualtron-Achilleus-1.jpg",
+        price:3650,
+        category:"Monopatines",
+    },
+    {
+        id:3,
+        title:"Moto Eléctrica Surron Light",
+        modelo:"Bee X",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2022/05/Moto-Electrica-Surron-Light-Bee-X-1-1.jpg",
+        price:5750,
+        category:"Motos",
+    },
+    {
+        id:4,
+        title:"Moto Eléctrica Surron Light Storm",
+        modelo:"Bee F",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2022/11/Moto-Electrica-Surron-Light-Bee-Storm.jpg",
+        price:12500,
+        category:"Motos",
+    },
+    {
+        id:5,
+        title:"Monociclo Eléctrico King Song ",
+        modelo:"S18",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2021/06/king-song-s18-1.jpg",
+        price:3450,
+        category:"Monociclos", 
+    },
+    {
+        id:5,
+        title:"Monociclo Eléctrico King Song ",
+        modelo:"S18",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2021/06/king-song-s18-1.jpg",
+        price:3450,
+        category:"Monociclos",  
+    }
+]
