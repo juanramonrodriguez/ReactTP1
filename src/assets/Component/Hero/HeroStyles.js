@@ -5,7 +5,7 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 max-width: 1200px;
-margin: 0 auto;
+margin-top: 100px;
 gap: 30px;
 `
 export const HeroTextContainerStyled= styled.div`
@@ -14,12 +14,13 @@ flex-direction: column;
 justify-content: center;
 align-items: flex-start;
 width: 50%;
-h1{
-    font-size: 5.5rem;
-    margin: 10px 0;
+img{
+    width: 500px;
+    height: 80px;
 }
 p{
     font-size: 1.5rem;
+    
 }
 `
 export const HeroImageContainerStyled= styled.div`
@@ -47,4 +48,5 @@ align-items: center;
 text-align: center;
 border-radius: 10px;
 border: 1px solid gray;
+
 `

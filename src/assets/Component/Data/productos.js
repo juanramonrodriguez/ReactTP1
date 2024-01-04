@@ -40,11 +40,11 @@ export const productos = [
         category:"Monociclos", 
     },
     {
-        id:5,
-        title:"Monociclo Eléctrico King Song ",
-        modelo:"S18",
-        img:"https://airwheel-arg.com.ar/wp-content/uploads/2021/06/king-song-s18-1.jpg",
-        price:3450,
+        id:6,
+        title:"Monociclo Eléctrico InMotion",
+        modelo:"V8F",
+        img:"https://airwheel-arg.com.ar/wp-content/uploads/2021/06/inmotion-v8f.jpg",
+        price:2100,
         category:"Monociclos",  
     }
 ]

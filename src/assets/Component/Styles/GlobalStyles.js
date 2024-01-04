@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
     background-color: white;
     color: black;
+    font-family: 'Montserrat', sans-serif;
 }
 a{
     text-decoration: none;
