@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 width: 100%;
 height: auto;
-background-color: #e6621f;
+background-color: #333333;
 `
 export const FooterRedes = styled.div`
 width: 100%;
@@ -15,6 +15,7 @@ border-bottom: 1px solid black;
 margin-bottom: 20px;
 h2{
     font-size: 25px;
+    color: white;
 }
 `
 export const IconosRedes = styled.div`
@@ -27,6 +28,8 @@ gap: 15px;
 
 a{
     cursor: pointer;
+   background-color: white;
+   border-radius: 20px;
 }
 a:hover{
     transform: scale(120%);
@@ -60,12 +63,14 @@ button{
 }
 p{
     font-size: 22px;
+    color: white;
 }
 img{
     margin-top: 40%;
 }
 li{
     font-size: 18px;
+    cursor: pointer;
     
 }
 ul{
@@ -74,5 +79,9 @@ flex-direction: column;
 gap: 12px;
 padding: 0px ;
 margin-top: -10px;
+color: white;
+}
+h2{
+    color: white;
 }
 `
