@@ -28,8 +28,8 @@ gap: 15px;
 
 a{
     cursor: pointer;
-   background-color: white;
-   border-radius: 20px;
+    background-color: white;
+    border-radius: 20px;
 }
 a:hover{
     transform: scale(120%);
@@ -41,6 +41,7 @@ width: 100%;
 height: auto;
 justify-content: center;
 gap: 120px;
+flex-wrap: wrap;
 
 `
 export const SectionInfoFooter = styled.div`
@@ -68,6 +69,11 @@ p{
 img{
     margin-top: 40%;
 }
+@media (max-width: 593px){
+        img{
+            display: none;
+        }
+    }
 li{
     font-size: 18px;
     cursor: pointer;

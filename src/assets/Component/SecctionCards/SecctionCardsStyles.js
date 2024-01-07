@@ -4,12 +4,19 @@ export const ContainerCards = styled.div`
 display: flex;
 margin-top: 170px;
 align-items: center;
-width: 1400px;
-height: auto;
+max-width: 100%;
+height:auto;
 gap: 100px;
+
+@media (max-width:1220px){
+    flex-direction: column;
+}
+
+
 
 `
 export const CardsInfoContainer = styled.div`
+display: flex;
 position: relative;
 width: 600px;
 height: 250px;
@@ -18,11 +25,10 @@ img{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
 }
+
 `
 export const Overlay = styled.div`
-
 position: absolute;
 overflow: hidden;
 top: 0;

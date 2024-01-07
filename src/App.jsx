@@ -5,6 +5,7 @@ import SecctionCards from "./assets/Component/SecctionCards/SecctionCards"
 import Footer from "./assets/Component/Footer/Footer"
 import Productos from "./assets/Component/Products/CardsProductos"
 import Categorias from "./assets/Component/Categotrias/Categorias"
+import ProductsDestacados from "./assets/Component/Productos-Destacados/ProductsDestacados"
 
 
 function App() {
@@ -15,8 +16,7 @@ function App() {
       <Layout>
         <Hero/>
         <SecctionCards/>
-        <Categorias/>
-        <Productos/>
+        <ProductsDestacados/>
       </Layout>
         <Footer/>
 
