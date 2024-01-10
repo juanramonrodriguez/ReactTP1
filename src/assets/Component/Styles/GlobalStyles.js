@@ -3,8 +3,11 @@ import {createGlobalStyle}from "styled-components"
 export const GlobalStyles=createGlobalStyle`
  html{
     scroll-behavior: smooth;
+    
 }
 body{
+    align-items: center;
+    justify-content: center;
     margin:0 ;
     padding: 0;
     overflow-x: hidden;

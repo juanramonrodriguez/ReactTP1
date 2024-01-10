@@ -13,6 +13,9 @@ export const NavbarContainer = styled.div`
   @media (max-width: 1210px) {
     gap: 10px;
   }
+  @media (max-width: 590px){
+    justify-content: center;
+  }
   `;
 
 export const NavbarLogo = styled.div`
@@ -73,5 +76,6 @@ width: auto;
 height: auto;
 @media (max-width:590px){
   display: flex;
+
 }
 `

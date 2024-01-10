@@ -1,4 +1,4 @@
-export const Categorias =[
+export const categorias =[
     {
         id:1,
         img:"https://airwheel-arg.com.ar/wp-content/uploads/2020/11/zero-10-1.jpg",

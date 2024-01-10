@@ -17,6 +17,7 @@ function App() {
         <Hero/>
         <SecctionCards/>
         <ProductsDestacados/>
+        <Categorias/>
       </Layout>
         <Footer/>
 
