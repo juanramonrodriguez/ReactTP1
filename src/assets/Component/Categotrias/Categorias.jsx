@@ -10,9 +10,8 @@ function Categorias() {
       </CategoriasTitle>
       <CategoriasContainer>
         {categorias.map(cat =>(
-          <Categoria key={cat.id}{...cat}/>
-
-        ))}
+          <Categoria key={cat.id}{...cat}/>        
+          ))}         
       </CategoriasContainer>
     </CategoriasWrapper>
     

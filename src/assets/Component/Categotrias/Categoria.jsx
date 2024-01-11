@@ -1,12 +1,15 @@
-import { CardCategoria } from "./CategoriasSyles";
+import { CardCategoria
+ } from "./CategoriasSyles";
 
 function Categoria({img, title, category}) {
   return (
-    <CardCategoria>
+   
+
+      <CardCategoria>
         <img src={img} alt={category} />
         <h2>{title}</h2>
     </CardCategoria>
-
+   
   )
 }
 

@@ -1,4 +1,7 @@
+
 import styled from "styled-components";
+ 
+
 
 export const CategoriasWrapper = styled.div`
 display: flex;
@@ -18,6 +21,7 @@ h2{
     font-weight: 700;
 }
 `
+
 export const CategoriasContainer = styled.div`
 display: flex;
 flex-wrap: wrap;
@@ -37,8 +41,17 @@ cursor: pointer;
 justify-content: center;
 align-items: center;
 gap: 10px;
-border: 1px solid black;
 border-radius: 10px;
+opacity: 0.7;
+
+&:hover {
+    
+    opacity: 1;
+    -webkit-box-reflect: below
+    1px linear-gradient(transparent, #0003);
+    box-shadow: 0 0 1px white , 0 0 1px white ,
+    0 0 5px , 0 0 10px white
+}
 
 img{
     width: 90px;

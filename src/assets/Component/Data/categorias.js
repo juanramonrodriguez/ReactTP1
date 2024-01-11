@@ -14,7 +14,7 @@ export const categorias =[
     {
         id:3,
         img:"https://airwheel-arg.com.ar/wp-content/uploads/2021/06/inmotion-v11.jpg",
-        title:"Monociclo",
-        category:"Monociclo",
+        title:"Monociclos",
+        category:"Monociclos",
     }
 ]
