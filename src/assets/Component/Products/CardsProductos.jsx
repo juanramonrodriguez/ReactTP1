@@ -1,11 +1,11 @@
-import React from 'react';
+import {productos} from "../Data/productos"
+import CardProducto from "./CardProducto";
 
 function CardsProductos() {
-  return (
-    <div>
-      productos
-    </div>
-  );
+  return 
+   
+    
+
 }
 
 export default CardsProductos;
