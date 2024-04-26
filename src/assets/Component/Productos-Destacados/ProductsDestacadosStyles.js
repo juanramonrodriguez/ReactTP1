@@ -40,8 +40,6 @@ export const CardProductDestacado = styled.div`
   border: 2px solid #e6621f;
   box-shadow: 1px 1px 20px 2px black;
   
-  
-  
   img{
       width: 200px;
       height: 200px;

@@ -5,5 +5,10 @@ width: auto;
 height: auto;
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: center; 
+
+&.isActiveFilter{
+    filter: blur(5px);
+}
 `
+

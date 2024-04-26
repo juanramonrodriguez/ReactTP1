@@ -1,17 +1,18 @@
 import { CardProductDestacado, CardsContainer, ProductosDesacadosTitulo, ProductosDestacados } from "./ProductsDestacadosStyles";
-import { productos } from "../Data/productos";
+import {useSelector} from "react-redux"
 
 
 
 function ProductsDestacados() {
-  const productosDestacados = productos.filter((producto) => producto.id === 1 || producto.id === 4);
+  const {recommended}= useSelector((state)=> state.recommended)
+  // const productosDestacados = productos.filter((producto) => producto.id === 1 || producto.id === 4);
   return (
     <ProductosDestacados>
         <ProductosDesacadosTitulo>
         <h2>PRODUCTOS DESTACADOS</h2>
         </ProductosDesacadosTitulo>
         <CardsContainer>
-        {productosDestacados.map((producto) => (
+        {recommended.map((producto) => (
           <CardProductDestacado key={producto.id}>
             <h2>{producto.title}</h2>
             <img src={producto.img} />

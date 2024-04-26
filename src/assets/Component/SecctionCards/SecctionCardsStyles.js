@@ -21,10 +21,12 @@ position: relative;
 width: 600px;
 height: 250px;
 
+
 img{
     width: 100%;
     height: 100%;
     object-fit: cover;
+   
 }
 
 `
@@ -37,6 +39,7 @@ width: 70%;
 height: 100%;
 clip-path: polygon(0 0, 50% 0, 100% 130%, 0% 100%);
 background-color: #333333;
+
 `
 export const OverlayText = styled.div`
 display: flex;

@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 export const CategoriasWrapper = styled.div`
 display: flex;
-margin-bottom: 40px;
+margin: 50px;
 flex-direction: column;
 text-align: center;
 width: auto;
@@ -42,16 +42,8 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 border-radius: 10px;
-opacity: 0.7;
 
-&:hover {
-    
-    opacity: 1;
-    -webkit-box-reflect: below
-    1px linear-gradient(transparent, #0003);
-    box-shadow: 0 0 1px white , 0 0 1px white ,
-    0 0 5px , 0 0 10px white
-}
+
 
 img{
     width: 90px;

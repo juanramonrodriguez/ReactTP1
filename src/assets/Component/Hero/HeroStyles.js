@@ -11,6 +11,7 @@ margin-top: 100px;
 padding: 30px;
 gap: 10px;
 
+
 @media (max-width:930px){
    
 }
@@ -86,5 +87,6 @@ border: 2px solid #e6621f;
 align-items: center;
 text-align: center;
 border-radius: 10px;
+
 
 `
